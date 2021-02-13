@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Livro</title>
+</head>
+<body>
+
+    <form action="." method="GET">
+        <h1>Formulário para cadastro de livro</h1>
+        <div>
+            <label for="booktitle">Título do livro:</label>
+            <input type="text" name="titulodolivro" id="booktitle">
+        </div>
+        <br>
+        <div>
+            <label for="year">Ano da Publicação:</label>
+            <input type="date" name="anodapublicacaoo" id="year">
+        </div>
+        <br>
+        <div>
+            <label for="number">Número da Edição:</label>
+            <input type="number" name="numerodaedicao" id="number">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email de contato da Editora:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="photo">Foto de capa:</label>
+            <input type="file" name="fotodacapa" id="photo">
+        </div>
+        <br>
+        <div>
+            <label for="author">Nome do(a) autor(a):</label>
+            <input type="text" name="nomeautor" id="author">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Data de nascimento do(a) autor(a):</label>
+            <input type="date" name="datanascimentoautor" id="birthday">
+        </div>
+        <br>
+        <div>
+            <div>Formato Disponível:</div>
+            <br>
+            <label for="normal">Capa normal</label>
+            <input type="checkbox" name="capanorma" id="normal">
+
+            <label for="hard">Capa dura</label>
+            <input type="checkbox" name="capadura" id="hard">
+
+            <label for="ebook">Ebook</label>
+            <input type="checkbox" name="ebook" id="ebook">
+            
+        </div>
+        <br>
+        <div>
+            <button>Cadastrar</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
+
